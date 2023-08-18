@@ -80,7 +80,7 @@ function SearchResult() {
           ) : (
             <span className="resultNotFound">
               Sorry, we couldn&apos;t find any results for &quot;{query}&quot;
-              <img src={noResult} alt="no result" />
+              <img src={noResult} alt="no result" className="imgNotFound" />
             </span>
           )}
         </ContentWrapper>
